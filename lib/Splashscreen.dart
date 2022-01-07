@@ -10,15 +10,17 @@ class Splash extends StatelessWidget {
     return MaterialApp(
     debugShowCheckedModeBanner: false,
       home:SplashScreen(
-      seconds: 3,
-       image:Image.asset('image/2.jpg') ,
-        title:  Text('من سيربح الموز؟',style:TextStyle(fontSize: 40,color: Colors.black),textAlign:TextAlign.center ,),
-        backgroundColor: Colors.amber,
-      loaderColor: Colors.white,
-      photoSize:220.0,
-        navigateAfterSeconds:MyApp() ,
-
-
-      ) );
+      seconds: 10,
+          image: Image.asset('image/2.jpg'),
+          title: Text(
+            'من سيربح الموز؟',
+            style: TextStyle(fontSize: 40, color: Colors.black),
+            textAlign: TextAlign.center,
+          ),
+          backgroundColor: Colors.amber,
+          loaderColor: Colors.white,
+          photoSize: 180.0,
+          navigateAfterSeconds: MyApp(),
+        ) );
   }
 }

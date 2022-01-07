@@ -59,11 +59,12 @@ class _MyAppState extends State<MyApp> {
           primaryColor: Colors.amber,
           textTheme: ThemeData.light()
               .textTheme
-              .copyWith(body1: TextStyle(color: Colors.black))),
+              .copyWith(bodyText1: TextStyle(color: Colors.black))),
       home: Scaffold(
         drawer: DraWer(),
         backgroundColor: Colors.white,
         appBar: AppBar(
+          backgroundColor: Colors.amber,
           centerTitle: true,
           title: Text(
             'من سيربح الموز؟',
