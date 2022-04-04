@@ -1,8 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.stuped_quizz_app">
    <application
-        android:label="stuped_quizz_app"
-        android:icon="@mipmap/ic_launcher">
+        android:label="Quizey"
+        android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

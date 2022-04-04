@@ -75,7 +75,7 @@ class _MyAppState extends State<MyApp> {
           ),
         ),
         body: qindex < _qustion.length
-            ? Quiz(_qustion, qindex,answerq, )
+            ? SingleChildScrollView(child: Quiz(_qustion, qindex,answerq, ))
             : Result(requiz),
       ),
     );
